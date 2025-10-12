@@ -86,7 +86,6 @@ def best_move_for_computer(board: List[str], comp: str, human: str) -> int:
     return random.choice(candidates)
 
 def human_turn(board: List[str], symbol: str) -> None:
-    """Prompt human for a move and apply it."""
     while True:
         try:
             choice = input(f"Player {symbol}, enter position (1-9): ").strip()
