@@ -1,7 +1,3 @@
-# tic_tac_toe.py
-# Simple Tic-Tac-Toe game with Human vs Human and Human vs Computer (Minimax).
-# Works in Python 3.6+
-
 
 
 from typing import List, Optional, Tuple
