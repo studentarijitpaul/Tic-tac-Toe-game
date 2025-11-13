@@ -4,9 +4,6 @@ from typing import List, Optional, Tuple
 import math
 import random
 
-# Board positions: indices 0..8
-# Display positions to user as 1..9
-
 def print_board(board: List[str]) -> None:
     """Print the current board in a friendly 3x3 layout."""
     display = [c if c != ' ' else str(i+1) for i, c in enumerate(board)]
